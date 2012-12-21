@@ -56,6 +56,8 @@ public class WebViewActivity extends Activity {
    	private class Callback extends WebViewClient {
     	@Override
     	public boolean shouldOverrideUrlLoading(WebView view, String url) {
+    		                        //How to implement the case when shouldOverrideUrlLoading(WebView view, String url)
+                                                                           //returns true? 
     	return(false);
     	}
     	}
